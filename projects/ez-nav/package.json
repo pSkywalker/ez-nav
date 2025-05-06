@@ -9,5 +9,35 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "sideEffects": false
+
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pSkywalker/ez-nav.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pSkywalker/ez-nav/issues"
+  },
+  "homepage": "https://github.com/pSkywalker/ez-nav#readme",
+  "keywords": [
+    "angular",
+    "angular-component",
+    "angular-library",
+    "angular-navbar",
+    "navbar",
+    "navigation",
+    "responsive-navbar",
+    "mobile-navbar",
+    "dropdown-menu",
+    "dropdown-navigation",
+    "angular-navigation",
+    "angular-header",
+    "bootstrap-navbar",
+    "custom-navbar",
+    "configurable-navbar",
+    "ez-nav",
+    "header-component",
+    "angular-ui",
+    "ui-library"
+  ]
 }
