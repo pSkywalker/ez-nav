@@ -111,7 +111,7 @@
   </ul>
 
   <h2>📜 License</h2>
-  <p>MIT © YourName</p>
+  <p>MIT © DigitalCastle</p>
 
 </body>
 </html>
