@@ -9,7 +9,7 @@
 
   <h1>🧭 ez-nav</h1>
   <p>
-    A <strong>config-driven, responsive Angular navigation bar</strong> that integrates seamlessly with Bootstrap layout and Bootstrap Icons.
+    A <strong>config-driven, responsive Angular navigation bar</strong> that integrates seamlessly with Bootstrap layouts.
   </p>
 
   <img width="250" height="250" src="https://github.com/user-attachments/assets/b524b924-8c3e-4b88-b433-bf84ad805982"/>
