@@ -23,7 +23,7 @@
 
   <h2>📦 Installation</h2>
   <pre><code>npm install ez-nav</code></pre>
-  <p><strong>✅ Requires Angular 15+</strong><br>
+  <p><strong>✅ Requires Angular 19.2.0+</strong><br>
   🧰 Optional: Bootstrap + Bootstrap Icons for styling and layout.</p>
 
   <h2>🚀 Usage</h2>
@@ -106,7 +106,7 @@
 
   <h2>📚 Dependencies</h2>
   <ul>
-    <li>Angular 15+</li>
+    <li><strong>Angular 19.2.0+</strong></li>
     <li>Optional: Bootstrap 5</li>
     <li>Recommended: <a href="https://icons.getbootstrap.com/" target="_blank">Bootstrap Icons</a></li>
   </ul>
