@@ -1,6 +1,8 @@
 {
   "name": "ez-nav",
-  "version": "0.0.4",
+  "version": "0.0.6",
+  "description": "A responsive, configurable Angular navigation bar component with support for dropdown menus, mobile drawer toggles, and custom layouts. Easily integrate a dynamic navbar using a simple configuration object.",
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^19.2.0",
     "@angular/core": "^19.2.0",
