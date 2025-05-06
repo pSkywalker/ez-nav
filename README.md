@@ -13,19 +13,19 @@
   </p>
   <p>
     <a href="https://www.npmjs.com/package/ez-nav">
-      <img src="https://img.shields.io/npm/v/ez-nav.svg?style=flat-square" alt="npm version">
+      <img src="https://img.shields.io/npm/v/ez-nav.svg" alt="npm version">
     </a>
     <a href="https://www.npmjs.com/package/ez-nav">
-      <img src="https://img.shields.io/npm/dm/ez-nav.svg?style=flat-square" alt="npm downloads">
+      <img src="https://img.shields.io/npm/dm/ez-nav.svg" alt="npm downloads">
     </a>
     <a href="https://github.com/YOUR_USERNAME/ez-nav/blob/main/LICENSE">
-      <img src="https://img.shields.io/npm/l/ez-nav.svg?style=flat-square" alt="license">
+      <img src="https://img.shields.io/npm/l/ez-nav.svg" alt="license">
     </a>
     <a href="https://angular.io">
-      <img src="https://img.shields.io/badge/angular-19.2+-dd0031?style=flat-square&logo=angular&logoColor=white" alt="angular compatibility">
+      <img src="https://img.shields.io/badge/angular-19.2+-dd0031?logo=angular&logoColor=white" alt="angular compatibility">
     </a>
     <a href="https://getbootstrap.com">
-      <img src="https://img.shields.io/badge/bootstrap-5.0+-563d7c?style=flat-square&logo=bootstrap&logoColor=white" alt="bootstrap version">
+      <img src="https://img.shields.io/badge/bootstrap-5.0+-563d7c?logo=bootstrap&logoColor=white" alt="bootstrap version">
     </a>
   </p>
   <img width="250" height="250" src="https://github.com/user-attachments/assets/b524b924-8c3e-4b88-b433-bf84ad805982"/>
