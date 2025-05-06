@@ -1,0 +1,32 @@
+<div [ngClass]="header.wrappingClass">
+  <div class="row">
+      <div [ngClass]="header.parentRowLogoClasses">
+        <img [src]="header.logo.src" [alt]="header.logo.alt" [ngClass]="header.logo.imageClassNames" />
+      </div>
+      <div [ngClass]="header.parentNavItemsClasses">
+        <ez-nav-nav-drawer (drawerPosition)="handleDrawerStatus($event)" [navRow]="header.navRow"></ez-nav-nav-drawer>
+      </div>
+  </div>
+  <div *ngIf="isDrawerOpen">
+    <ng-container *ngFor="let link of header.navRow.items; let i = index">
+      <div class="col-md-12 col-sm-12" (click)="toggleSubNav(i); $event.preventDefault(); $event.stopPropagation();">
+        <a [ngClass]="link.anchorTagClassMobile" [routerLink]="link.route">
+          {{ link.title }}
+          <ng-container *ngIf="link.subNav?.length">
+            <i
+              class="bi"
+              [ngClass]="subNavsOpen[i] ? link.subNavOpenClasses : link.subNavCloseClasses">
+            </i>
+          </ng-container>
+        </a>
+      </div>
+      <ng-container *ngIf="subNavsOpen[i] && link.subNav?.length">
+        <div class="row">
+          <a *ngFor="let sub of link.subNav" [routerLink]="sub.route" [ngClass]="sub.cssClasses">
+            {{ sub.title }}
+          </a>
+        </div>
+      </ng-container>
+    </ng-container>
+  </div>
+</div>

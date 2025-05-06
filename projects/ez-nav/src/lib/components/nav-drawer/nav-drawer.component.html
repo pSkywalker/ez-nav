@@ -1,0 +1,41 @@
+
+<div class="row">
+    <ng-container *ngIf="screenType === 'desktop' || screenType === 'tablet'">
+      <ng-container *ngFor="let link of navRow.items; let i = index">
+        <div [ngClass]="link.gridClasses" (click)="toggleSubNav(i, $event)">
+          <a [routerLink]="link.route" [ngClass]="link.anchorTagClass" class="d-flex align-items-center gap-1">
+            <span>{{ link.title }}</span>
+
+            <!-- Subnav Icons -->
+            <ng-container *ngIf="link.subNav?.length">
+              <i class="bi"
+                 [ngClass]="subNavsOpen[i] ? link.subNavOpenClasses : link.subNavCloseClasses"
+                 style="cursor: pointer;">
+              </i>
+            </ng-container>
+          </a>
+
+          <div *ngIf="subNavsOpen[i]" [ngClass]="link.dropDownParentClasses">
+            <ng-container *ngFor="let sub of link.subNav">
+              <div>
+                <a
+                  [routerLink]="sub.route"
+                  [ngClass]="sub.cssClasses">
+                  {{ sub.title }}
+                </a>
+              </div>
+            </ng-container>
+          </div>
+
+        </div>
+      </ng-container>
+      </ng-container>
+    <ng-container *ngIf="screenType==='mobile'">
+      <!--
+      drawerIcon bi bi-filter-right
+      drawerIcon bi bi-filter-left
+      -->
+      <i (click)="updateDrawer(true)" *ngIf="!isDrawerOpen" [ngClass]="navRow.drawerIconOpen"></i>
+      <i (click)="updateDrawer(false)" *ngIf="isDrawerOpen" [ngClass]="navRow.drawerIconClosed"></i>
+    </ng-container>
+  </div>
