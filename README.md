@@ -12,6 +12,8 @@
     A <strong>config-driven, responsive Angular navigation bar</strong> that integrates seamlessly with Bootstrap layout and Bootstrap Icons.
   </p>
 
+  <img width="250" height="250" src="https://github.com/user-attachments/assets/b4d760ec-2d98-48f9-859c-7ac14e4dba19"/>
+
   <h2>✨ Features</h2>
   <ul>
     <li>📱 Mobile-first responsive design</li>
