@@ -3,16 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ez-nav README</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
-  <style>
-    body { padding: 2rem; font-family: system-ui, sans-serif; background: #fff; }
-    pre { background: #f8f9fa; padding: 1rem; border-radius: 0.5rem; overflow-x: auto; }
-    code { font-family: Consolas, monospace; }
-    h1, h2, h3 { margin-top: 2rem; }
-    ul li { margin-bottom: 0.5rem; }
-  </style>
+  
 </head>
 <body>
 
