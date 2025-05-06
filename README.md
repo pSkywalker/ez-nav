@@ -116,7 +116,7 @@
   <h2>📚 Dependencies</h2>
   <ul>
     <li><strong>Angular 19.2.0+</strong></li>
-    <li><strong> Bootstrap 5 </strong></li>
+    <li><strong> Bootstrap 5.0.0 </strong></li>
   </ul>
 
   <h2>📜 License</h2>
