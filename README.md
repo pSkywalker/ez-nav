@@ -96,13 +96,20 @@
 };</code></pre>
 
   <h2>🎨 Styling Tips</h2>
+  <p>To ensure proper styling, include Bootstrap's CSS in your project:</p>
+  <pre><code>@import 'bootstrap/dist/css/bootstrap.min.css';
+</code></pre>
+  <p>
+  <strong>Important:</strong>  All custom styles for this component should be placed in your project's root <code>style.css</code> file.  Here are a few examples:
+  </p>
   <pre><code>.logoPadding {
   padding: 10px;
 }
 .drawerIcon {
   font-size: 1.5rem;
   cursor: pointer;
-}</code></pre>
+}
+</code></pre>
 
   <h2>📚 Dependencies</h2>
   <ul>
