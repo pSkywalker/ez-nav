@@ -97,6 +97,129 @@
   }
 };</code></pre>
 
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Parameter</th>
+      <th scope="col">Type</th>
+      <th scope="col">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>wrappingClass</code></td>
+      <td><code>string[]</code></td>
+      <td>Classes applied to the wrapper element (e.g., <code>container-fluid</code>).</td>
+    </tr>
+    <tr>
+      <td><code>parentRowLogoClasses</code></td>
+      <td><code>string[]</code></td>
+      <td>Classes applied to the parent row for the logo (e.g., <code>col-md-8</code>, <code>logoPadding</code>).</td>
+    </tr>
+    <tr>
+      <td><code>parentNavItemsClasses</code></td>
+      <td><code>string[]</code></td>
+      <td>Classes applied to the parent row for the navigation items (e.g., <code>col-md-4</code>, <code>navBarPadding</code>).</td>
+    </tr>
+    <tr>
+      <td colspan="3"><strong>logo</strong></td>
+    </tr>
+    <tr>
+      <td><code>logo.src</code></td>
+      <td><code>string</code></td>
+      <td>Path to the logo image (e.g., <code>assets/your-logo.png</code>).</td>
+    </tr>
+    <tr>
+      <td><code>logo.alt</code></td>
+      <td><code>string</code> (optional)</td>
+      <td>Alt text for the logo image (e.g., <code>Company Logo</code>).</td>
+    </tr>
+    <tr>
+      <td><code>logo.imageClassNames</code></td>
+      <td><code>string[]</code></td>
+      <td>Classes applied to the logo image (e.g., <code>img-fluid</code>).</td>
+    </tr>
+    <tr>
+      <td colspan="3"><strong>navRow</strong></td>
+    </tr>
+    <tr>
+      <td><code>navRow.drawerIconOpen</code></td>
+      <td><code>string[]</code></td>
+      <td>Classes for the icon when the drawer is open (e.g., <code>bi</code>, <code>bi-filter-right</code>, <code>drawerIcon</code>).</td>
+    </tr>
+    <tr>
+      <td><code>navRow.drawerIconClosed</code></td>
+      <td><code>string[]</code></td>
+      <td>Classes for the icon when the drawer is closed (e.g., <code>bi</code>, <code>bi-filter-left</code>, <code>drawerIcon</code>).</td>
+    </tr>
+    <tr>
+      <td><code>navRow.items</code></td>
+      <td><code>object[]</code></td>
+      <td>List of navigation items.</td>
+    </tr>
+    <tr>
+      <td><code>navRow.items.title</code></td>
+      <td><code>string</code></td>
+      <td>The title of the navigation item (e.g., <code>🏠 Home</code>).</td>
+    </tr>
+    <tr>
+      <td><code>navRow.items.route</code></td>
+      <td><code>string</code></td>
+      <td>The route path for the navigation item (e.g., <code>/</code>).</td>
+    </tr>
+    <tr>
+      <td><code>navRow.items.gridClasses</code></td>
+      <td><code>string[]</code></td>
+      <td>Grid classes for responsive layout of the navigation item (e.g., <code>col-md-2</code>, <code>col-sm-2</code>).</td>
+    </tr>
+    <tr>
+      <td><code>navRow.items.anchorTagClass</code></td>
+      <td><code>string[]</code></td>
+      <td>Classes applied to the anchor tag for the item (e.g., <code>nav-link</code>).</td>
+    </tr>
+    <tr>
+      <td><code>navRow.items.anchorTagClassMobile</code></td>
+      <td><code>string[]</code></td>
+      <td>Classes applied to the anchor tag for mobile devices (e.g., <code>mobile-item</code>).</td>
+    </tr>
+    <tr>
+      <td><code>navRow.items.dropDownParentClasses</code></td>
+      <td><code>string[]</code> (optional)</td>
+      <td>Classes applied to the parent element of a dropdown menu (e.g., <code>dropdown</code>).</td>
+    </tr>
+    <tr>
+      <td><code>navRow.items.subNavOpenClasses</code></td>
+      <td><code>string[]</code> (optional)</td>
+      <td>Classes for the icon indicating that the sub-navigation is open (e.g., <code>bi</code>, <code>bi-caret-up-fill</code>).</td>
+    </tr>
+    <tr>
+      <td><code>navRow.items.subNavCloseClasses</code></td>
+      <td><code>string[]</code> (optional)</td>
+      <td>Classes for the icon indicating that the sub-navigation is closed (e.g., <code>bi</code>, <code>bi-caret-down-fill</code>).</td>
+    </tr>
+    <tr>
+      <td><code>navRow.items.subNav</code></td>
+      <td><code>object[]</code> (optional)</td>
+      <td>List of submenu items for a navigation item with a dropdown.</td>
+    </tr>
+    <tr>
+      <td><code>navRow.items.subNav.title</code></td>
+      <td><code>string</code></td>
+      <td>The title of a sub-navigation item (e.g., <code>💬 Consulting</code>).</td>
+    </tr>
+    <tr>
+      <td><code>navRow.items.subNav.route</code></td>
+      <td><code>string</code></td>
+      <td>The route path for a sub-navigation item (e.g., <code>/services/consulting</code>).</td>
+    </tr>
+    <tr>
+      <td><code>navRow.items.subNav.cssClasses</code></td>
+      <td><code>string[]</code></td>
+      <td>CSS classes applied to the sub-navigation item (e.g., <code>dropdown-item</code>).</td>
+    </tr>
+  </tbody>
+</table>
+
   <h2>🎨 Styling Tips</h2>
   <p>To ensure proper styling, include Bootstrap's CSS in your project:</p>
   <pre><code>@import 'bootstrap/dist/css/bootstrap.min.css';
