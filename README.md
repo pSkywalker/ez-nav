@@ -24,7 +24,7 @@
   <h2>📦 Installation</h2>
   <pre><code>npm install ez-nav</code></pre>
   <p><strong>✅ Requires Angular 19.2.0+</strong><br>
-  🧰 Optional: Bootstrap + Bootstrap Icons for styling and layout.</p>
+  <p><strong>✅ Requires Bootstrap 5.0.0+ </strong><br>
 
   <h2>🚀 Usage</h2>
 
