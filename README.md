@@ -107,8 +107,7 @@
   <h2>📚 Dependencies</h2>
   <ul>
     <li><strong>Angular 19.2.0+</strong></li>
-    <li>Optional: Bootstrap 5</li>
-    <li>Recommended: <a href="https://icons.getbootstrap.com/" target="_blank">Bootstrap Icons</a></li>
+    <li><strong> Bootstrap 5 </strong></li>
   </ul>
 
   <h2>📜 License</h2>
