@@ -111,14 +111,6 @@
     <li>Recommended: <a href="https://icons.getbootstrap.com/" target="_blank">Bootstrap Icons</a></li>
   </ul>
 
-  <h3>To install Bootstrap Icons:</h3>
-  <pre><code>npm install bootstrap-icons</code></pre>
-
-  <h4>Add to <code>angular.json</code>:</h4>
-  <pre><code>"styles": [
-  "node_modules/bootstrap-icons/font/bootstrap-icons.css"
-]</code></pre>
-
   <h2>📜 License</h2>
   <p>MIT © YourName</p>
 
